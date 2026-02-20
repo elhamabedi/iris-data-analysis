@@ -12,11 +12,11 @@ The analysis is performed on the Iris Dataset, originally introduced by Ronald F
 ## Features
 
 This project implements the following data mining tasks:
-1. Univariate Summary Statistics(dist/statistics.csv): Calculates detailed statistics for sepal width grouped by species:
+1. Univariate Summary Statistics (dist/statistics.csv): Calculates detailed statistics for sepal width grouped by species:
 	+ Missing values, Min, Max, Mean
 	+ Quartiles (Q1, Median, Q3), 95th Percentile
 	+ Range, IQR, Standard Deviation (Sample & Population), MAD
-2. Correlation Analysis(dist/correlation.csv): Computes Pearson's correlation matrix for all numerical features and identifies minimum/maximum correlations.
+2. Correlation Analysis (dist/correlation.csv): Computes Pearson's correlation matrix for all numerical features and identifies minimum/maximum correlations.
 	+ A 4x4 matrix showing Pearson correlation coefficients between:Sepal Length, Sepal Width, Petal Length, Petal Width
 3. Data Visualization:
 	+ Histograms: Distribution of Petal Length and Sepal Width.
@@ -42,4 +42,4 @@ This project implements the following data mining tasks:
 ## References
 1. Fisher, R. A. (1936). "The use of multiple measurements in taxonomic problems". Annals of Eugenics.
 2. Stevens, S. S. (1946). "On the theory of scales of measurement". Science.
-3. UCI Machine Learning Repository: Iris Dataset
+3. UCI Machine Learning Repository: [Iris Dataset](https://archive.ics.uci.edu/dataset/53/iris?spm=a2ty_o01.29997173.0.0.1ca5517195DxKp)
